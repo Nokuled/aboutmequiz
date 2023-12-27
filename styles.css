@@ -1,0 +1,118 @@
+/* CSS styles for the quiz */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-container {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.intro-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.intro-container button {
+    padding: 12px 24px;
+    background-color: #FF6B6B;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.intro-container button:hover {
+    background-color: #FF4D4D;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 80%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #444;
+    border: 1px solid #ccc; /* Adding borders around answer choices */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 12px 24px;
+    background-color: #FF6B6B;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF4D4D;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FF6B6B;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

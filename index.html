@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me Quiz</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="intro-container">
+        <h1>Welcome to the Quiz About Neil!</h1>
+        <p>Click below to get started.</p>
+        <button id="start-quiz">Click here</button>
+    </div>
+
+    <div class="quiz-container" style="display: none;">
+        <h1>How Well Do You Know Neil?</h1>
+        <p>Answer these questions about Neil to test your knowledge!</p>
+        <form id="quiz-form">
+            <!-- Questions and options -->
+            <div class="question">
+                <p>Question 1: What are Neil's thoughts on trans people?</p>
+                <label><input type="radio" name="q1" value="trans people do not exist"> Trans people do not exist</label><br>
+                <label><input type="radio" name="q1" value="trans people do not own cars"> Trans people do not own cars</label><br>
+                <label><input type="radio" name="q1" value="trans people control america"> Trans people control america</label><br>
+            </div>
+            <!-- Add more questions -->
+            <!-- Question 2 -->
+            <div class="question">
+                <p>Question 2: What is Neil's favorite anime?</p>
+                <label><input type="radio" name="q2" value="attack on titan"> Attack on Titan</label><br>
+                <label><input type="radio" name="q2" value="dragon ball z"> Dragon Ball Z</label><br>
+                <label><input type="radio" name="q2" value="naruto"> Naurto</label><br>
+            </div>
+            <!--Question 3 -->
+			<div class="question">
+                <p>Question 3: On a stormy night, what colors would Neil wear?</p>
+                <label><input type="radio" name="q3" value="blue and black"> Blue and Black</label><br>
+                <label><input type="radio" name="q3" value="green and brown"> Green and Brown</label><br>
+                <label><input type="radio" name="q3" value="grey and blue"> Grey and Blue</label><br>
+            </div>
+			<!--Question 4 -->
+			<div class="question">
+                <p>Question 4: Neil has work at 8:00 am. What is Neil doing at 7:57 am?</p>
+                <label><input type="radio" name="q4" value="smoking"> Smoking</label><br>
+                <label><input type="radio" name="q4" value="on the way to work"> On the way to work</label><br>
+                <label><input type="radio" name="q4" value="taking a shower"> Taking a Shower</label><br>
+            </div>
+			<!--Question 5 -->
+			<div class="question">
+                <p>Question 5: What kind of Gatorade is Neil choosing?</p>
+                <label><input type="radio" name="q5" value="blue"> Blue</label><br>
+                <label><input type="radio" name="q5" value="green"> Green</label><br>
+                <label><input type="radio" name="q5" value="red"> Red</label><br>
+            </div>
+			<!--Question 6 -->
+			<div class="question">
+                <p>Question 6: What was Neil's first legal job?</p>
+                <label><input type="radio" name="q6" value="programmer"> Programmer</label><br>
+                <label><input type="radio" name="q6" value="mathmatician"> Mathmatician</label><br>
+                <label><input type="radio" name="q6" value="housekeeping"> Housekeeping</label><br>
+            </div>
+			<!--Question 7 -->
+			<div class="question">
+                <p>Question 7: Neil has work at 8:00 am. It is 8:12 am what is Neil doing?</p>
+                <label><input type="radio" name="q7" value="going to work"> Going to work</label><br>
+                <label><input type="radio" name="q7" value="listening to drake"> Listening to Drake</label><br>
+                <label><input type="radio" name="q7" value="smoking"> Smoking</label><br>
+            </div>
+			<!--Question 8 -->
+			<div class="question">
+                <p>Question 8: Neil's favorite album?</p>
+                <label><input type="radio" name="q8" value="ballads 1 - joji"> Ballads 1 - Joji</label><br>
+                <label><input type="radio" name="q8" value="igor - tyler"> IGOR - Tyler</label><br>
+                <label><input type="radio" name="q8" value="you will regret - ski mask"> You will regret - Ski Mask</label><br>
+            </div>
+			<!--Question 9 -->
+			<div class="question">
+                <p>Question 9: What is Neil's favorite sport?</p>
+                <label><input type="radio" name="q9" value="football"> Football</label><br>
+                <label><input type="radio" name="q9" value="basketball"> Basketball</label><br>
+                <label><input type="radio" name="q9" value="boxing"> Boxing</label><br>
+            </div><!--Question 10 -->
+			<div class="question">
+                <p>Question 10: Neil has work at 8:00 am. It is 8:15 what is Neil doing?</p>
+                <label><input type="radio" name="q10" value="eating peanut butter"> Eating peanut butter</label><br>
+                <label><input type="radio" name="q10" value="otp with jai at home"> OTP with jai at home</label><br>
+                <label><input type="radio" name="q10" value="going to work"> Going to work</label><br>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="result" id="result">
+            <!-- Result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
